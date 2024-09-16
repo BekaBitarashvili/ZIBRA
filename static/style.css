@@ -1,4 +1,13 @@
-.centre {
+body {
+    background-color: #14af14;
+}
+.satauri {
     text-align: center;
     align-content: center;
+    align-items: center;
+}
+.teqsti {
+    text-align: center;
+    align-content: center;
+    align-items: center;
 }
