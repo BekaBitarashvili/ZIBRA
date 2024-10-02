@@ -20,6 +20,10 @@ def contact():
 def categories():
     return render_template('categories.html')
 
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    return render_template('login.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
