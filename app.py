@@ -24,7 +24,7 @@ def categories():
 def login():
     return render_template('login.html')
 
-# error handling
+# error
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
